@@ -2,10 +2,15 @@
 #jb 1 feb 2025
 # run fastp on each sample, then tries to generate shallow taxonomic composition for sanity check and flag potential issues
 
+# do below separately to download iSeq data
+#mkdir fastqs
+#/data/shared_resources/sftwr/basespace_cli/bs appsession list # to find the run id matching the sequencing run
+#/data/shared_resources/sftwr/basespace_cli/bs download appsession -i 881085205 -o fastq --extension=fastq.gz
+
 conda activate kraken2
 
 NTHREADS=8
-READDIR=/data/SequencingRuns/2025July02_Pecan/iseq_qc/OHMC-425835412/FASTQ_Generation_2025-07-23_13_04_34Z-841652826/
+READDIR=fastqs
 
 
 ################# FastP
