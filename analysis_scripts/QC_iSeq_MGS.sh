@@ -15,7 +15,7 @@ READDIR=fastqs
 
 ################# FastP
 mkdir -p read_qc
-for R1 in $(ls -1 ${READDIR}/*/*R1_001.fastq.gz); do
+for R1 in $(ls -1 ${READDIR}/*_L001_*/*R1_001.fastq.gz); do # needed as each file may show up twice in how basespace downloads
 	sampleid=$(basename $R1 | sed 's/_S[0-9].*//g')
 	R2=$(echo $R1 | sed 's/_R1_/_R2_/g')
     echo "Processing $sampleid, forward $R1, reverse $R2"
