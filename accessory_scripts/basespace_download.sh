@@ -20,8 +20,10 @@ mkdir basespacedl
 #need to increase number of open files for session 
 ulimit -n 4096
 
-bcl2fastq \
- --runfolder-dir  /data/SequencingRuns/YOURDIRHERE/basespacedl \
- --output-dir reads \
- -r 4 -p 4 -w 4 \
- --sample-sheet /data/SequencingRuns/YOURDIRHERE/YOURSAMPLESHEETHERE.csv
+
+#below would only be if you were downloading miseq data which still needed to be demultiplexed
+#bcl2fastq \
+# --runfolder-dir  /data/SequencingRuns/YOURDIRHERE/basespacedl \
+# --output-dir reads \
+# -r 4 -p 4 -w 4 \
+# --sample-sheet /data/SequencingRuns/YOURDIRHERE/YOURSAMPLESHEETHERE.csv
