@@ -5,7 +5,7 @@
 # do below separately to download iSeq data
 #mkdir fastqs
 #/data/shared_resources/sftwr/basespace_cli/bs appsession list # to find the run id matching the sequencing run
-#/data/shared_resources/sftwr/basespace_cli/bs download appsession -i 881085205 -o fastq --extension=fastq.gz
+#/data/shared_resources/sftwr/basespace_cli/bs download appsession -i 881085205 -o fastqs --extension=fastq.gz
 
 conda activate kraken2
 
