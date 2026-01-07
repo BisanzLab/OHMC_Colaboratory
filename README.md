@@ -28,6 +28,7 @@ Do not send any samples to lab without first discussing project with Jordan. Ple
 <br> [Protocol 2:](https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Protocols/AmpliconSeq/2_IndexingPCR.md) Indexing PCR
 <br> [Protocol 3:](https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Protocols/AmpliconSeq/3_Pooling.md) Pooling
 <br> [Protocol 4:](https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Protocols/AmpliconSeq/4_Cleanup.md) Size selection and cleanup
+<br> [Considerations for ITS](https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Protocols/AmpliconSeq/ITS_Amplification_Considerations.md)
 
 ## Metagenomic Sequencing
 
