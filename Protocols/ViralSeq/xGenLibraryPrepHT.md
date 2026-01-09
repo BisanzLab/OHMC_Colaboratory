@@ -1,9 +1,9 @@
 
-# xGen IDT ssDNA & Low-Input DNA Library Prep
+# xGen IDT ssDNA & Low-Input DNA Library Prep High-Throughput Protocol
 
 **Objective**: To prepare a viral metagenome or any other sample type that will utilize the xGen IDT ssDNA & Low-Input DNA Library Prep for short-read sequencing on an Illumina platform.
 
-**This is a very long protocol and mistakes can be very easily made. Please read the protocol in its entirety before proceeding as there are many important details that may be overlooked!**
+**This is a very long protocol, and mistakes can be very easily made. Please read the protocol in its entirety before proceeding, as many important details may be overlooked!**
 
 ## Contents:
 - [Intended Use](#intended-use)
@@ -29,7 +29,7 @@ The xGen IDT ssDNA & Low-Input DNA Library Prep Kit is suitable for the followin
 - Damaged DNA samples
 - Samples with a mixture of ssDNA & dsDNA
 - Low-input DNA
-- Viromes, metagenomes, and phageomes targeting for ssDNA & dsDNA bacteriophages
+- Viromes, metagenomes, and phageomes targeting ssDNA & dsDNA bacteriophages
 - Ancient DNA Samples
 
 The workflow of this procedure is as follows:
@@ -40,7 +40,7 @@ The workflow of this procedure is as follows:
 - **Ligation:** Adds R1 Stubby Adapter to the original strand.
 - **Indexing PCR:** PCR incorporates sample indices and full-length adapters.
 
-The HT version of this protocol was designed to work within a full 96-Well Plate. As such many of the reagent calculations were performed with 96 samples in mind, though per well reagent volumes are detailed for appropriate calculations.
+The HT version of this protocol was designed to work within a full 96-Well Plate. As such, many of the reagent calculations were performed with 96 samples in mind, though per-well reagent volumes are detailed for appropriate calculations.
 
 ## Materials and Equipment
 
@@ -81,10 +81,10 @@ The HT version of this protocol was designed to work within a full 96-Well Plate
 - When creating master mixes, always include an excess volume of 10%.
 - **Be sure to perform pre-PCR and post-PCR processes in the appropriately labeled clean benches.**
 
-This kit accepts DNA from **10 pg to 250 ng**. It is important to know the amount of starting material because the number of PCR cycles run during the Indexing step is dependent upon this number. If utilizing very-low quantity DNA, then utilize the number of PCR cycles supported for the lowest input amount.
+This kit accepts DNA from **10 pg to 250 ng**. It is important to know the amount of starting material because the number of PCR cycles run during the Indexing step is dependent upon this number. If using very low-quantity DNA, then use the number of PCR cycles recommended for the lowest input amount.
 
 ### Fragmentation
-This kit has been specifically designed to be processed with fragment sizes of 200bp or 350bp and has been specifically validated with mechanical shearing (sonication) methods. 
+This kit has been specifically designed for use with fragment sizes of 200 bp or 350 bp and has been validated for mechanical shearing (sonication) methods. 
 
 The size of the fragmented library impacts the bead volumes in the subsequent cleanup steps for the extension, ligation, and indexing processes. For this protocol, we will be utilizing **a fragment size of 350 bp.**
 
@@ -93,44 +93,42 @@ If you don't have sufficient DNA quantity for the 3 µL starting volume, you wil
 
 ## Protocol Preparations
 
-**gDNA Plate**: Ensure fragmented DNA is thawed in a 96-well plate. This plate should **ideally** have at least 15 µL of gDNA at 5 ng/µL to allow for at least 2 passes in the event of error. The plate should be centrifuged before opening. From the extraction plate, use the Integra mini-96 12.5 µL pipettor to transfer 3 µL of gDNA into a new 96-well plate. Label this plate as *gDNA Plate*.
+**Denaturation Plate**: Ensure fragmented DNA is thawed in a 96-well plate. This plate should **ideally** have at least 15 µL of gDNA to allow for multiple passes in the event of error. The plate should be centrifuged before opening. From the extraction plate, use the Integra mini-96 12.5 µL pipettor to transfer 3 µL of gDNA into a new 96-well plate. Label this plate as *Denaturation Plate*.
 
-**Denaturation Plate**: Using a multichannel pipette, transfer 3 µL of the gDNA to a new 96-Well Plate. Label this plate as *Denaturation Plate*. 
-
-**Adaptase Plate**: Assemble the Adapatase Reaction Mixture into a single 1.5 mL microcentrifuge tube. Using a single-channel pipette, evenly distribute the volume of the master mix across 8 0.2 mL PCR strip tubes. Using a multichannel pipette, transfer 5 µL of the Adaptase Reaction Mixture into the desired number of wells on the plate. Be sure to leave the plate on ice and **centrifuge before use**. Label this plate as *Adaptase Plate*. 
+**Adaptase Plate**: Assemble the Adapatase Reaction Mixture into a single 1.5 mL microcentrifuge tube. Using a single-channel pipette, evenly distribute the volume of the master mix across 8 0.2 mL PCR strip tubes. Using a multichannel pipette, transfer 5 µL of the Adaptase Reaction Mixture across the 96 wells or into the desired number of wells on the plate. Be sure to leave the plate on ice and **centrifuge before use**. Label this plate as *Adaptase Plate*. 
 
 **Extension Master Mix**: Assemble the Extension Reaction Mixture in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
 
-**Post-Extension Cleanup Plates**: Set up 2 96-Well Plates for the double-left-sided selection. Using a multichannel reservoir, pipette 1404 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 13.92 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Extension Bead Cleanup 1*. Using a single-channel pipette, transfer 2420 µL of SPRISelect Beads into the same multi-channel reservoir. Using a multichannel pipette, transfer 24 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Extension Bead Cleanup 2*.
+**Post-Extension Cleanup Plates**: Set up 2 96-Well Plates for the double-left-sided selection. Using a multichannel reservoir, pipette 1404 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 13.92 µL of the SPRISelect Beads from the reservoir across the 96-well plate or the desired number of wells. Label this plate *Extension Bead Cleanup 1*. Using a single-channel pipette, transfer 2420 µL of SPRISelect Beads into the same multi-channel reservoir. Using a multichannel pipette, transfer 24 µL of the SPRISelect Beads from the reservoir across the 96-well plate or the desired number of wells. Label this plate *Extension Bead Cleanup 2*.
 
 **Ligation Master Mix**: Assemble the Ligation Reaction Mixture, **without the B3 enzyme**, and leave on ice until use.
 
-**Post-Ligation Cleanup Plates**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 676 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 6.4 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Ligation Bead Cleanup*.
+**Post-Ligation Cleanup Plates**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 676 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 6.4 µL of the SPRISelect Beads from the reservoir across the 96-well plate or desired number of wells. Label this plate *Ligation Bead Cleanup*.
 
 **Indexing PCR Plate**: Using the Integra mini-96 12.5 pipette, transfer 1 µL of the xGen UDI Primers to a 96-well plate. Label this plate as *Indexing PCR*. Assemble the Indexing PCR Reaction Mix in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
 
-**Post-Indexing PCR Cleanup Plate**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 898 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 8.5 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Indexing PCR Bead Cleanup*.
+**Post-Indexing PCR Cleanup Plate**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 898 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 8.5 µL of the SPRISelect Beads from the reservoir across the 96-well plate or desired number of wells. Label this plate *Indexing PCR Bead Cleanup*.
 
 ## Protocol
 The starting point for this protocol is post-fragmentation and assumes that you have a sufficient starting amount of DNA for your library. The bead clean-up steps utilize a left-side size selection to remove small fragments and unused adapters.
 
 ### Denaturation
-1. Preheat the thermocycler to 95°C.
-2. Quickly spin down **gDNA Plate**.
-3. Place the **gDNA Plate** in the thermocycler and run the *Denaturation Program*, detailed in the Appendix.
+1. Start the *Denaturation Program* and preheat the thermocycler to 95°C.
+2. Quickly spin down *Denaturation Plate*.
+3. Place the **Denaturation Plate** in the thermocycler and run the *Denaturation Program*, detailed in the Appendix.
 4. Transfer libraries onto **ice** upon completion of the thermocycling program. Leave for 2 minutes and then proceed with the Adaptase step to preserve the maximum amount of ssDNA substrate.
 
 ### Adaptase
 1. Make sure the Adaptase thermocycler program is on and that it has reached 37°C before loading the libraries.
-2. Quickly spin down **gDNA Plate** and **Adaptase Plate**.
-3. Using the Integra mini-96 12.5 µL pipettor, transfer 3 µL of gDNA from the **gDNA Plate** into the **Adaptase Plate**. 
+2. Quickly spin down *Denaturation Plate* and *Adaptase Plate*.
+3. Using the Integra mini-96 12.5 µL pipettor, transfer 3 µL of sheared DNA from the **Denaturation Plate** into the **Adaptase Plate**. 
 4. Mix by pipetting or pulse-spin. Spin down.
-5. Place the **Adaptase Plate** in the thermocycler and run the *Adaptase Program*, detailed in the Appendix.
+5. Place the *Adaptase Plate* in the thermocycler and run the *Adaptase Program*, detailed in the Appendix.
 
 ### Extension
 1. While the Adaptase program runs, ensure that Enzyme W4 is out on ice and is ready to be aliquoted before use in the Extension Master Mix. Be sure to pulse-spin the Extension Master Mix after the addition of Enzyme W4, and briefly spin it down. Keep on ice.
 2. Using a PCR strip tube, evenly aliquot the Extension Master Mix amongst the 8 tubes.
-3. Using a P20 multichannel pipette, aliquot 9.4 µL of the Extension Master Mix across a new 96-well plate. Label this plate as the *Extension Plate*. Keep on ice.
+3. Using a P20 multichannel pipette, aliquot 9.4 µL of the Extension Master Mix across a new 96-well plate or desired number of wells. Label this plate as the *Extension Plate*. Keep on ice.
 4. Once the *Adaptase Program* concludes. Remove samples from the thermocycler and immediately load the *Extension Program*. 
 5. Using the Integra mini-96 12.5 µL pipettor, transfer 8 µL from the *Adapatase Plate* to the *Extension Plate*. 
 6. Mix by pipetting or pulse-spin. Spin down.
@@ -149,7 +147,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 19. Mix by pipetting or pulse-spin. Spin down.
 20. Incubate for 5 minutes to elute DNA off beads.
 21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate.
-22. If necessary, perform secondary bead cleanup:
+22. If your input DNA was less than 1 ng, perform a secondary bead cleanup:
     - Transfer 20 µL of supernatant from the previous step (*Extension Bead Cleanup 1*) to the *Extension Bead Cleanup 2* plate.
     - Mix by pipetting or pulse-spin. Spin down.
     - Incubate the libraries at room temperature for 5 minutes off-magnet.
