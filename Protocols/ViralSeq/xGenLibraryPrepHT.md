@@ -89,28 +89,27 @@ This kit has been specifically designed to be processed with fragment sizes of 2
 The size of the fragmented library impacts the bead volumes in the subsequent cleanup steps for the extension, ligation, and indexing processes. For this protocol, we will be utilizing **a fragment size of 350 bp.**
 
 ### Optional Concentration Step
-If you don't have sufficient DNA quantity for the 3 µL starting volume, you will need to concentrate your DNA into a smaller volume. Various options exist including using the 
-
+If you don't have sufficient DNA quantity for the 3 µL starting volume, you will need to concentrate your DNA into a smaller volume. Various options exist, including using the Eppendorf Vacufuge located in the lab.
 
 ## Protocol Preparations
 
-**gDNA Plate**: Ensure fragmented DNA is thawed in a 96-well plate. This plate should **ideally** have at least 15 µL of gDNA at 5 ng/µL to allow for at least 2 passes in the event of error. Plate should be centrifuged before opening. From the extraction plate, use the Integra mini-96 12.5 µL pipettor to transfer 3 µL of gDNA into a new 96-well plate. Label this plate as *gDNA Plate*.
+**gDNA Plate**: Ensure fragmented DNA is thawed in a 96-well plate. This plate should **ideally** have at least 15 µL of gDNA at 5 ng/µL to allow for at least 2 passes in the event of error. The plate should be centrifuged before opening. From the extraction plate, use the Integra mini-96 12.5 µL pipettor to transfer 3 µL of gDNA into a new 96-well plate. Label this plate as *gDNA Plate*.
 
 **Denaturation Plate**: Using a multichannel pipette, transfer 3 µL of the gDNA to a new 96-Well Plate. Label this plate as *Denaturation Plate*. 
 
-**Adaptase Plate**: Assembly the Adapatase Reaction Mixture into a single 1.5 mL microcentrifuge tube. Using a single channel pipette, evenly distribute the volume of the master mix across 8 0.2 mL PCR strip tubes. Using a multichannel pipette, transfer 5 µL of the Adaptase Reaction Mixture into the desired number of wells on the plate. Be sure to leave the plate on ice and **centrifuge before use**. Label this plate as *Adaptase Plate*. 
+**Adaptase Plate**: Assemble the Adapatase Reaction Mixture into a single 1.5 mL microcentrifuge tube. Using a single-channel pipette, evenly distribute the volume of the master mix across 8 0.2 mL PCR strip tubes. Using a multichannel pipette, transfer 5 µL of the Adaptase Reaction Mixture into the desired number of wells on the plate. Be sure to leave the plate on ice and **centrifuge before use**. Label this plate as *Adaptase Plate*. 
 
 **Extension Master Mix**: Assemble the Extension Reaction Mixture in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
 
-**Post-Extension Cleanup Plates**: Setup 2 96-Well Plates for the double-left sided selection. Using a multichannel reservoir, pipette 1404 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 13.92 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Extension Bead Cleanup 1*. Using a single-channel pipette, transfer 2420 µL of SPRISelect Beads into the same multi-channel reservoir. Using a multichannel pipette, transfer 24 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Extension Bead Cleanup 2*.
+**Post-Extension Cleanup Plates**: Set up 2 96-Well Plates for the double-left-sided selection. Using a multichannel reservoir, pipette 1404 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 13.92 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Extension Bead Cleanup 1*. Using a single-channel pipette, transfer 2420 µL of SPRISelect Beads into the same multi-channel reservoir. Using a multichannel pipette, transfer 24 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Extension Bead Cleanup 2*.
 
 **Ligation Master Mix**: Assemble the Ligation Reaction Mixture, **without the B3 enzyme**, and leave on ice until use.
 
-**Post-Ligation Cleanup Plates**: Setup a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 676 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 6.4 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Ligation Bead Cleanup*.
+**Post-Ligation Cleanup Plates**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 676 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 6.4 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Ligation Bead Cleanup*.
 
 **Indexing PCR Plate**: Using the Integra mini-96 12.5 pipette, transfer 1 µL of the xGen UDI Primers to a 96-well plate. Label this plate as *Indexing PCR*. Assemble the Indexing PCR Reaction Mix in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
 
-**Post-Indexing PCR Cleanup Plate**: Setup a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 898 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 8.5 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Indexing PCR Bead Cleanup*.
+**Post-Indexing PCR Cleanup Plate**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 898 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 8.5 µL of the SPRISelect Beads from the reservoir across the 96-well plate. Label this plate *Indexing PCR Bead Cleanup*.
 
 ## Protocol
 The starting point for this protocol is post-fragmentation and assumes that you have a sufficient starting amount of DNA for your library. The bead clean-up steps utilize a left-side size selection to remove small fragments and unused adapters.
@@ -122,7 +121,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 4. Transfer libraries onto **ice** upon completion of the thermocycling program. Leave for 2 minutes and then proceed with the Adaptase step to preserve the maximum amount of ssDNA substrate.
 
 ### Adaptase
-1. Make sure the Adaptase thermocycler program is on and that it has reached 37°C prior to loading the libraries.
+1. Make sure the Adaptase thermocycler program is on and that it has reached 37°C before loading the libraries.
 2. Quickly spin down **gDNA Plate** and **Adaptase Plate**.
 3. Using the Integra mini-96 12.5 µL pipettor, transfer 3 µL of gDNA from the **gDNA Plate** into the **Adaptase Plate**. 
 4. Mix by pipetting or pulse-spin. Spin down.
@@ -136,7 +135,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 5. Using the Integra mini-96 12.5 µL pipettor, transfer 8 µL from the *Adapatase Plate* to the *Extension Plate*. 
 6. Mix by pipetting or pulse-spin. Spin down.
 7. With the thermocycler preheated to 98°C. Place the samples in the thermocycler and run the *Extension Program*.
-8. Once done with the *Extension Program* concludes, proceed to bead cleanup with SPRISelect or AMPure XP beads.
+8. Once done with the *Extension Program*, proceed to bead cleanup with SPRISelect or AMPure XP beads.
 9. Using the Integra mini-96 125 µL, pipette 17.4 µL from the *Extension Plate* to the *Extension Bead Cleanup 1* plate.
 10. Mix by pipetting or pulse-spin. Spin down.
 11. Incubate the libraries at room temperature for 5 minutes off-magnet.
@@ -149,7 +148,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 18. Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
 19. Mix by pipetting or pulse-spin. Spin down.
 20. Incubate for 5 minutes to elute DNA off beads.
-21. Place on magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96 well plate.
+21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate.
 22. If necessary, perform secondary bead cleanup:
     - Transfer 20 µL of supernatant from the previous step (*Extension Bead Cleanup 1*) to the *Extension Bead Cleanup 2* plate.
     - Mix by pipetting or pulse-spin. Spin down.
@@ -162,7 +161,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
     - Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
     - Mix by pipetting or pulse-spin. Spin down.
     - Incubate for 5 minutes to elute DNA off beads.
-    - Place on magnet and wait for the liquid to clear completely for 1-2 minutes. Using the Integra mini-96 125 µL pipettor, transfer 20 µL of supernatant into a new 96 well plate.
+    - Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Using the Integra mini-96 125 µL pipettor, transfer 20 µL of supernatant into a new 96-well plate.
 23. Place in a speed vacuum and concentrate at the following specifications:
     - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
 24. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down. Label plate as *Post-Extension Plate*.
@@ -179,7 +178,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 6. Using the Integra mini-96 12.5 µL pipettor, transfer 4 µL from the *Post-Extension Plate* to the *Ligation Plate*. 
 10. Mix by pipetting or pulse-spin. Spin down.
 7. Place samples in the pre-heated thermal cycler and run the *Ligation Program*. 
-8. Once done with the *Ligation Program* concludes, proceed to bead cleanup with SPRISelect or AMPure XP beads.
+8. Once done with the *Ligation Program*, proceed to bead cleanup with SPRISelect or AMPure XP beads.
 9. Using the Integra mini-96 125 µL, pipette 8 µL from the *Ligation Plate* to the *Ligation Bead Cleanup* plate.
 10. Mix by pipetting or pulse-spin. Spin down.
 11. Incubate the libraries at room temperature for 5 minutes off-magnet.
@@ -192,7 +191,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 18. Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
 19. Mix by pipetting or pulse-spin. Spin down.
 20. Incubate for 5 minutes to elute DNA off beads.
-21. Place on magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96 well plate.
+21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate.
 22. Place in a speed vacuum and concentrate at the following specifications:
     - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
 23. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down. Label plate as *Post-Ligation Plate*.
@@ -210,7 +209,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 7. Using the Integra mini-96 12.5 µL pipettor, transfer 4 µL from the *Post-Ligation Plate* to the *Indexing PCR Plate*. 
 8. Mix by pipetting or pulse-spin. Spin down.
 9. Place samples in the pre-heated thermal cycler and run the *Indexing PCR Program*. 
-10. Once done with the *Indexing PCR Program* concludes, proceed to bead cleanup with SPRISelect or AMPure XP beads.
+10. Once done with the *Indexing PCR Program*, proceed to bead cleanup with SPRISelect or AMPure XP beads.
 11. Using the Integra mini-96 12.5 µL, pipette 10 µL from the *Indexing PCR Plate* to the *Indexing PCR Bead Cleanup* plate.
 10. Mix by pipetting or pulse-spin. Spin down.
 11. Incubate the libraries at room temperature for 5 minutes off-magnet.
@@ -223,7 +222,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 18. Remove libraries from the magnet, and add 12 µL of nuclease-free water to elute.
 19. Mix by pipetting or pulse-spin. Spin down.
 20. Incubate for 5 minutes to elute DNA off beads.
-21. Place on magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 10 µL of supernatant into a new 96 well plate.
+21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 10 µL of supernatant into a new 96 well plate.
 
 >[!NOTE]
 >Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
