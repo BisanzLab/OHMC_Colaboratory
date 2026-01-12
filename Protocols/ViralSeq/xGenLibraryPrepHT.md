@@ -40,7 +40,7 @@ The workflow of this procedure is as follows:
 - **Ligation:** Adds R1 Stubby Adapter to the original strand.
 - **Indexing PCR:** PCR incorporates sample indices and full-length adapters.
 
-The HT version of this protocol was designed to work within a full 96-Well Plate. As such, many of the reagent calculations were performed with 96 samples in mind, though per-well reagent volumes are detailed for appropriate calculations.
+The HT version of this protocol was designed to work within a full 96-well Plate. As such, many of the reagent calculations were performed with 96 samples in mind, though per-well reagent volumes are detailed for appropriate calculations.
 
 ## Materials and Equipment
 
@@ -50,27 +50,26 @@ The HT version of this protocol was designed to work within a full 96-Well Plate
 - [ ] 125 µL Integra Mini-96
 - [ ] 10 µL Multi-Channel Pipette
 - [ ] 20 µL Multi-Channel Pipette
-- [ ] Plate Centrifuge
+- [ ] Plate Centrifuge (USA Sci #2532-2000)
 - [ ] 96-Well Plate Magnet
 - [ ] Agilent TapeStation 4200
-- [ ] Plate Vortex
+- [ ] Plate Vortex (IKA #0003319000)
 
 ### Consumables
-- [ ] 0.2 mL magnets for individual tubes and plates
 - [ ] 100% ethanol (200 proof)
 - [ ] 50 mL conical tubes
 - [ ] 96-well PCR Plates
 - [ ] Aerosol-resistant, low retention pipettes and tips, 2 - 1000 µL
-- [ ] Agilent 4200 TapeStattion System
-- [ ] Covaris ultrasonicator
-- [ ] HSD1000 Ladder and Sample Buffer
-- [ ] HSD1000 ScreenTape
-- [ ] Nuclease-free Water
-- [ ] Optical tube 8X strip (Agilent 401428) with cap (401425)
-- [ ] SPRISelect® or AMPure® XP beads
-- [ ] TapeStation loading tips (Agilent 5067*5599)
-- [ ] xGen™ IDT ssDNA & Low-Input DNA Library Prep Kit
-- [ ] xGen™ UDI 10nt Primer Plates 
+- [ ] HSD1000 Sample Buffer (#5067-5603)
+- [ ] HSD1000 ScreenTape (#5067-5584)
+- [ ] Nuclease-free Water (#10977015)
+- [ ] Optical tube 8X strip (Agilent #401428) with cap (#401425)
+- [ ] SPRISelect® or AMPure® XP beads (#NC9933872)
+- [ ] TapeStation loading tips (Agilent 5067-5599)
+- [ ] xGen™ IDT ssDNA & Low-Input DNA Library Prep Kit (#10009817)
+- [ ] xGen™ UDI 10nt Primer Plates (#10008052)
+- [ ] Plate Seals (#MSB1001)
+- [ ] Multichannel Reservoirs (#53504-035)
 
 >[!NOTE]
 > Store the xGen ssDNA & Low-Input DNA Library Prep Kit reagents at -20°C, except for the xGen Low EDTA TE Buffer, which is stored at room temperature.
@@ -108,6 +107,8 @@ If you don't have sufficient DNA quantity for the 3 µL starting volume, you wil
 **Indexing PCR Plate**: Using the Integra mini-96 12.5 pipette, transfer 1 µL of the xGen UDI Primers to a 96-well plate. Label this plate as *Indexing PCR*. Assemble the Indexing PCR Reaction Mix in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
 
 **Post-Indexing PCR Cleanup Plate**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 898 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 8.5 µL of the SPRISelect Beads from the reservoir across the 96-well plate or desired number of wells. Label this plate *Indexing PCR Bead Cleanup*.
+
+**80% Ethanol Preparation**: Create an 80% (vol/vol) solution of 200-proof ethanol and nuclease-free water. **Approximately 500 µL of ethanol will be used per library.** Reserve a 96-well plate for the cleanups for utilization on the Integra Pipettor. 
 
 ## Protocol
 The starting point for this protocol is post-fragmentation and assumes that you have a sufficient starting amount of DNA for your library. The bead clean-up steps utilize a left-side size selection to remove small fragments and unused adapters.
