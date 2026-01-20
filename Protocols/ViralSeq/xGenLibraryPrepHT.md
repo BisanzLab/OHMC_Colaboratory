@@ -80,7 +80,7 @@ The HT version of this protocol was designed to work within a full 96-well Plate
 - When creating master mixes, always include an excess volume of 10%.
 - **Be sure to perform pre-PCR and post-PCR processes in the appropriately labeled clean benches.**
 
-This kit accepts DNA from **10 pg to 250 ng**. It is important to know the amount of starting material because the number of PCR cycles run during the Indexing step is dependent upon this number. If using very low-quantity DNA, then use the number of PCR cycles recommended for the lowest input amount.
+This kit accepts DNA from **10 pg to 250 ng**. It is important to know the amount of starting material because the number of PCR cycles run during the indexing step is dependent upon this number. If using very low-quantity DNA, then use the number of PCR cycles recommended for the lowest input amount.
 
 ### Fragmentation
 This kit has been specifically designed for use with fragment sizes of 200 bp or 350 bp and has been validated for mechanical shearing (sonication) methods. 
@@ -92,26 +92,30 @@ If you don't have sufficient DNA quantity for the 3 µL starting volume, you wil
 
 ## Protocol Preparations
 
-**Denaturation Plate**: Ensure fragmented DNA is thawed in a 96-well plate. This plate should **ideally** have at least 15 µL of gDNA to allow for multiple passes in the event of error. The plate should be centrifuged before opening. From the extraction plate, use the Integra mini-96 12.5 µL pipettor to transfer 3 µL of gDNA into a new 96-well plate. Label this plate as *Denaturation Plate*.
+This kit does not come with master mixes prepared. As such you'll have to assemble them yourselves. We recommend setting up the master mixes the day before starting the protocol to reduce overall time between steps.
 
-**Adaptase Plate**: Assemble the Adapatase Reaction Mixture into a single 1.5 mL microcentrifuge tube. Using a single-channel pipette, evenly distribute the volume of the master mix across 8 0.2 mL PCR strip tubes. Using a multichannel pipette, transfer 5 µL of the Adaptase Reaction Mixture across the 96 wells or into the desired number of wells on the plate. Be sure to leave the plate on ice and **centrifuge before use**. Label this plate as *Adaptase Plate*. 
+**Denaturation Plate**: Ensure fragmented DNA is thawed in a 96-well plate. This plate should **ideally** have at least 15 µL of gDNA to allow for multiple passes in the event of error. The plate should be centrifuged before opening. From the extraction plate, use the Integra mini-96 12.5 µL pipettor to transfer 3 µL of gDNA into a new 96-well plate. Label this plate as *Denaturation Plate*. Seal plate.
 
-**Extension Master Mix**: Assemble the Extension Reaction Mixture in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
+**Adaptase Master Mix**: Assemble the Adapatase Reaction Mixture into a single 1.5 mL microcentrifuge tube. Using a single-channel pipette, evenly distribute the volume of the master mix across eight 0.2 mL PCR strip tubes. Be sure to leave the strip tubes on ice and **centrifuge before use**. Label these tubes as *Adaptase Reaction Tubes*. 
 
-**Post-Extension Cleanup Plates**: Set up 2 96-Well Plates for the double-left-sided selection. Using a multichannel reservoir, pipette 1404 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 13.92 µL of the SPRISelect Beads from the reservoir across the 96-well plate or the desired number of wells. Label this plate *Extension Bead Cleanup 1*. Using a single-channel pipette, transfer 2420 µL of SPRISelect Beads into the same multi-channel reservoir. Using a multichannel pipette, transfer 24 µL of the SPRISelect Beads from the reservoir across the 96-well plate or the desired number of wells. Label this plate *Extension Bead Cleanup 2*.
+**Extension Master Mix**: Assemble the Extension Reaction Mixture in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use. Label as *Extension Master Mix*.
 
-**Ligation Master Mix**: Assemble the Ligation Reaction Mixture, **without the B3 enzyme**, and leave on ice until use.
+**Post-Extension Bead Cleanup**: Aliquot 1404 µL of AMPure or SPRISelect Beads into a 1.5 mL microcentrifuge tube. Label as *Post-Extension Cleanup Tube*.
 
-**Post-Ligation Cleanup Plates**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 676 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 6.4 µL of the SPRISelect Beads from the reservoir across the 96-well plate or desired number of wells. Label this plate *Ligation Bead Cleanup*.
+**Ligation Master Mix**: Assemble the Ligation Reaction Mixture, **without the B3 enzyme**, and leave on ice until use. Label as *Ligation Master Mix*.
 
-**Indexing PCR Plate**: Using the Integra mini-96 12.5 pipette, transfer 1 µL of the xGen UDI Primers to a 96-well plate. Label this plate as *Indexing PCR*. Assemble the Indexing PCR Reaction Mix in a 1.5 mL microcentrifuge tube, **without the W4 enzyme**, and leave on ice until use.
+**Post-Ligation Bead Cleanup**: Aliquot 676 µL of AMPure or SPRISelect Beads into a 1.5 mL microcentrifuge tube. Label as *Post-Ligation Cleanup Tube*.
 
-**Post-Indexing PCR Cleanup Plate**: Set up a 96-Well plate for the left-sided selection. Using a multichannel reservoir, pipette 898 µL of the SPRISelect Beads and dispense into the well. Using a multichannel pipette, transfer 8.5 µL of the SPRISelect Beads from the reservoir across the 96-well plate or desired number of wells. Label this plate *Indexing PCR Bead Cleanup*.
+**Indexing PCR Master Mix**: Assemble the Indexing PCR Reaction Mixture, **without the W4 enzyme**, and leave on ice until use. Label as *Indexing PCR Master Mix*.
 
-**80% Ethanol Preparation**: Create an 80% (vol/vol) solution of 200-proof ethanol and nuclease-free water. **Approximately 500 µL of ethanol will be used per library.** Reserve a 96-well plate for the cleanups for utilization on the Integra Pipettor. 
+**Post-Indexing PCR Cleanup**: Aliquot 1800 µL of AMPure or SPRISelect Beads into a 1.5 mL microcentrifuge tube. Label as *Post-Indexing Cleanup Tube*.
+
+**80% Ethanol Preparation**: Create an 80% (vol/vol) solution of 200-proof ethanol and nuclease-free water. **Approximately 500 µL of ethanol will be used per library.** 
 
 ## Protocol
 The starting point for this protocol is post-fragmentation and assumes that you have a sufficient starting amount of DNA for your library. The bead clean-up steps utilize a left-side size selection to remove small fragments and unused adapters.
+
+**Perform all steps on ice! Except for the bead cleanups. Do not place beads on ice.**
 
 ### Denaturation
 1. Start the *Denaturation Program* and preheat the thermocycler to 95°C.
@@ -121,110 +125,110 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 
 ### Adaptase
 1. Make sure the Adaptase thermocycler program is on and that it has reached 37°C before loading the libraries.
-2. Quickly spin down *Denaturation Plate* and *Adaptase Plate*.
-3. Using the Integra mini-96 12.5 µL pipettor, transfer 3 µL of sheared DNA from the **Denaturation Plate** into the **Adaptase Plate**. 
-4. Mix by pipetting or pulse-spin. Spin down.
+2. Quickly spin down *Denaturation Plate*. Place back on ice.
+3. Using a P20 multichannel pipette, transfer 5 µL of the Adaptase reaction from the *Adaptase Reaction Tubes* into each well of the *Denaturation Plate*.
+4. Mix by pipetting 10 times or pulse-spin. Seal plate. Quickly spin down.
 5. Place the *Adaptase Plate* in the thermocycler and run the *Adaptase Program*, detailed in the Appendix.
 
 ### Extension
-1. While the Adaptase program runs, ensure that Enzyme W4 is out on ice and is ready to be aliquoted before use in the Extension Master Mix. Be sure to pulse-spin the Extension Master Mix after the addition of Enzyme W4, and briefly spin it down. Keep on ice.
+1. While the Adaptase program runs, ensure that Enzyme W4 is out on ice and is ready to be aliquoted before use in the *Extension Master Mix*. Be sure to pulse-spin the Extension Master Mix after the addition of Enzyme W4, and briefly spin it down. Keep on ice.
 2. Using a PCR strip tube, evenly aliquot the Extension Master Mix amongst the 8 tubes.
-3. Using a P20 multichannel pipette, aliquot 9.4 µL of the Extension Master Mix across a new 96-well plate or desired number of wells. Label this plate as the *Extension Plate*. Keep on ice.
-4. Once the *Adaptase Program* concludes. Remove samples from the thermocycler and immediately load the *Extension Program*. 
-5. Using the Integra mini-96 12.5 µL pipettor, transfer 8 µL from the *Adapatase Plate* to the *Extension Plate*. 
-6. Mix by pipetting or pulse-spin. Spin down.
-7. With the thermocycler preheated to 98°C. Place the samples in the thermocycler and run the *Extension Program*.
-8. Once done with the *Extension Program*, proceed to bead cleanup with SPRISelect or AMPure XP beads.
-9. Using the Integra mini-96 125 µL, pipette 17.4 µL from the *Extension Plate* to the *Extension Bead Cleanup 1* plate.
-10. Mix by pipetting or pulse-spin. Spin down.
+3. Once the *Adaptase Program* concludes. Remove samples from the thermocycler and immediately load the *Extension Program* on the thermalcycler. 
+4. Using a P20 multichannel pipette, aliquot 9.4 µL of the Extension Master Mix across all wells or desired number of wells. Keep on ice.
+5. Mix by pipetting 10 times or pulse-spin. Seal plate. Spin down.
+6. With the thermocycler preheated to 98°C. Place the samples in the thermocycler and run the *Extension Program*.
+7. While the program runs, place the contents of the *Post-Extension Cleanup Tube* into a multichannel reservoir. Be sure to have have vigorously vortexed beforehand.
+8. Once done with the *Extension Program*, remove plate from thermal cycler and proceed to bead cleanup with SPRISelect or AMPure XP beads.
+9. Using a P100, aliqout 20.88 µL of the SPRISelect or AMPure XP beads across all wells or desired number of wells.
+10. Mix by pipetting 10 times or pulse-spin. Spin down.
 11. Incubate the libraries at room temperature for 5 minutes off-magnet.
-12. Place the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
-13. Remove and discard the clear supernatant; take care not to remove any beads.
+11. During the incubation, set up the 80% ethanol plate for use during the bead wash steps. Using a multichannel reservoir, pour 26 mL 80% ethanol within. With a P1000 multichannel, aliquot 260 µL of ethanol across a new 96-well plate.
+11. Transfer libraries to the Integra mini-96 125 µL pipettor. Place the magnet onto the platform, followed by the plate with beads. Be sure to set up another plate for waste generated during the cleanup.
+12. Incubate the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
+13. Remove and discard the clear supernatant (~38.3 µL); take care not to remove any beads.
 14. Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
 15. Repeat the previous step for a second wash.
 16. Quickly spin down.
-17. Using the Integra mini-96 12.5 µL pipettor, remove any residual ethanol.
+17. Using the Integra mini-96 µL pipettor, remove any residual ethanol.
 18. Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
 19. Mix by pipetting or pulse-spin. Spin down.
 20. Incubate for 5 minutes to elute DNA off beads.
-21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate.
-22. If your input DNA was less than 1 ng, perform a secondary bead cleanup:
-    - Transfer 20 µL of supernatant from the previous step (*Extension Bead Cleanup 1*) to the *Extension Bead Cleanup 2* plate.
-    - Mix by pipetting or pulse-spin. Spin down.
-    - Incubate the libraries at room temperature for 5 minutes off-magnet.
-    - Place the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
-    - Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
-    - Repeat the previous step for a second wash.
-    - Quickly spin down.
-    - Using the Integra mini-96 12.5 µL pipettor, remove any residual ethanol.
-    - Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
-    - Mix by pipetting or pulse-spin. Spin down.
-    - Incubate for 5 minutes to elute DNA off beads.
-    - Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Using the Integra mini-96 125 µL pipettor, transfer 20 µL of supernatant into a new 96-well plate.
-23. Place in a speed vacuum and concentrate at the following specifications:
-    - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
-24. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down. Label plate as *Post-Extension Plate*.
-
->[!NOTE]
->Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
-
-### Ligation
-1. Ensure the Ligation Master Mix is prepared. Add Enzyme B3 just before use.
-2. Pulse-vortex the Master Mix, then briefly centrifuge. Keep the Master Mix on ice.
-3. Using a PCR strip tube, evenly aliquot the Extension Master Mix amongst the 8 tubes.
-4. Using a P20 multichannel pipette, aliquot 4 µL of the Extension Master Mix across a new 96-well plate. Label this plate as the *Ligation Plate*. Keep on ice.
-5. Pre-heat the thermocycler to the starting temperature of the *Ligation Program* that was mentioned above.
-6. Using the Integra mini-96 12.5 µL pipettor, transfer 4 µL from the *Post-Extension Plate* to the *Ligation Plate*. 
-10. Mix by pipetting or pulse-spin. Spin down.
-7. Place samples in the pre-heated thermal cycler and run the *Ligation Program*. 
-8. Once done with the *Ligation Program*, proceed to bead cleanup with SPRISelect or AMPure XP beads.
-9. Using the Integra mini-96 125 µL, pipette 8 µL from the *Ligation Plate* to the *Ligation Bead Cleanup* plate.
-10. Mix by pipetting or pulse-spin. Spin down.
-11. Incubate the libraries at room temperature for 5 minutes off-magnet.
-12. Place the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
-13. Remove and discard the clear supernatant; take care not to remove any beads.
-14. Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
-15. Repeat the previous step for a second wash.
-16. Quickly spin down.
-17. Using the Integra mini-96 12.5 µL pipettor, remove any residual ethanol.
-18. Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
-19. Mix by pipetting or pulse-spin. Spin down.
-20. Incubate for 5 minutes to elute DNA off beads.
-21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate.
+21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate. Label plate as *Post-Extension Plate*.
 22. Place in a speed vacuum and concentrate at the following specifications:
     - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
-23. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down. Label plate as *Post-Ligation Plate*.
+    - While the samples are drying down, take Enzyme B3 out of the -20°C freezer to allow the enzyme to thaw before adding to the *Ligation Master Mix*.
+23. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down.
 
 >[!NOTE]
->Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
+> Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
+
+### Ligation
+1. Load the *Ligation Program* on the thermalcycler.
+2. Ensure the *Ligation Master Mix* is prepared. Add Enzyme B3 just before use.
+3. Pulse-vortex the *Ligation Master Mix*, then briefly centrifuge. Keep the *Ligation Master Mix* on ice.
+4. Using a PCR strip tube, evenly aliquot the *Ligation Master Mix* amongst the 8 tubes.
+5. Using a P20 multichannel pipette, aliquot 4 µL of the *Ligation Master Mix* across the *Post-Extension Plate*. 
+6. Mix by pipetting 10 times or pulse-spin. Seal plate. Spin down.
+7. Re-label this plate as the *Ligation Plate*. Keep on ice.
+8. Pre-heat the thermocycler to the starting temperature of the *Ligation Program* that was mentioned above.
+9. Place samples in the pre-heated thermal cycler and run the *Ligation Program*. 
+10. While the program runs, place the contents of the *Post-Ligation Cleanup Tube* into a multichannel reservoir. Be sure to have have vigorously vortexed beforehand.
+11. Once done with the *Ligation Program*, remove plate from thermal cycler and proceed to bead cleanup with SPRISelect or AMPure XP beads.
+12. Using a P100, aliqout 6.4 µL of the SPRISelect or AMPure XP beads across all wells or desired number of wells.
+13. Mix by pipetting 10 times or pulse-spin. Spin down.
+14. Incubate the libraries at room temperature for 5 minutes off-magnet.
+15. During the incubation, set up the 80% ethanol plate for use during the bead wash steps. Using a multichannel reservoir, pour 26 mL 80% ethanol within. With a P1000 multichannel, aliquot 260 µL of ethanol across a new 96-well plate.
+16. Transfer libraries to the Integra mini-96 125 µL pipettor. Place the magnet onto the platform, followed by the plate with beads. Be sure to set up another plate for waste generated during the cleanup.
+17. Incubate the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
+18. Remove and discard the clear supernatant (~14.4 µL); take care not to remove any beads.
+19. Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
+20. Repeat the previous step for a second wash.
+21. Quickly spin down.
+22. Using the Integra mini-96 µL pipettor, remove any residual ethanol.
+23. Remove libraries from the magnet, and add 22 µL of nuclease-free water to elute.
+24. Mix by pipetting or pulse-spin. Spin down.
+25. Incubate for 5 minutes to elute DNA off beads.
+26. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate. Label plate as *Post-Extension Plate*.
+27. Place in a speed vacuum and concentrate at the following specifications:
+    - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
+    - While the samples are drying down, take Enzyme W4 out of the -20°C freezer to allow the enzyme to thaw before adding to the *Indexing PCR Master Mix*.
+    - Remove the xGen UDI Primers from the -20°C and thaw on ice. Be sure to spin down before use.
+28. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down.
+
+>[!NOTE]
+> Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
 
 ### Indexing PCR
 1. Preheat the thermal cycler to the starting temperature of the *Indexing PCR Program* as described in the Appendix.
 2. Ensure that the Indexing PCR Master Mix is ready. Add Enzyme W4 just before use.
 3. Pulse-vortex the Master Mix for 10 seconds, then briefly centrifuge.
 4. Using a PCR strip tube, evenly aliquot the Indexing PCR Master Mix amongst the 8 tubes.
-5. Using a P20 multichannel pipette, aliquot 5 µL of the Extension Master Mix across the *Indexing PCR Plate*.
-6. Mix by pipetting or pulse-spin. Spin down. Keep on ice.
-7. Using the Integra mini-96 12.5 µL pipettor, transfer 4 µL from the *Post-Ligation Plate* to the *Indexing PCR Plate*. 
-8. Mix by pipetting or pulse-spin. Spin down.
-9. Place samples in the pre-heated thermal cycler and run the *Indexing PCR Program*. 
-10. Once done with the *Indexing PCR Program*, proceed to bead cleanup with SPRISelect or AMPure XP beads.
-11. Using the Integra mini-96 12.5 µL, pipette 10 µL from the *Indexing PCR Plate* to the *Indexing PCR Bead Cleanup* plate.
-10. Mix by pipetting or pulse-spin. Spin down.
-11. Incubate the libraries at room temperature for 5 minutes off-magnet.
-12. Place the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
-13. Using the Integra mini-96 125 µL pipettor to remove and discard the clear supernatant; take care not to remove any beads.
-14. Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
-15. Repeat the previous step for a second wash.
-16. Quickly spin down.
-17. Using the Integra mini-96 12.5 µL pipettor, remove any residual ethanol.
-18. Remove libraries from the magnet, and add 12 µL of nuclease-free water to elute.
-19. Mix by pipetting or pulse-spin. Spin down.
-20. Incubate for 5 minutes to elute DNA off beads.
-21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 10 µL of supernatant into a new 96 well plate.
+5. Using a P20 multichannel pipette, aliquot 5 µL of the *Indexing PCR Master Mix* across the *Post-Extension Plate*.
+6. Mix by pipetting 10 times or pulse-spin. Spin down. Keep on ice. Relabel as *Indexing PCR Plate*.
+7. Using the Integra mini-96 12.5 µL pipettor, transfer 1 µL from the xGen UDI Primer Plate to the *Indexing PCR Plate*. 
+8. Mix by pipetting 10 times or pulse-spin. Spin down.
+9. Place samples in the pre-heated thermal cycler and run the *Indexing PCR Program*.
+10. While the program runs, place the contents of the *Post-Indexing PCR Cleanup Tube* into a multichannel reservoir. Be sure to have have vigorously vortexed beforehand.
+11. Once done with the *Indexing PCR Program*, remove plate from thermal cycler and proceed to bead cleanup with SPRISelect or AMPure XP beads.
+12. Using a P20, aliqout 8.5 µL of the SPRISelect or AMPure XP beads across all wells or desired number of wells.
+13. Mix by pipetting 10 times or pulse-spin. Spin down.
+14. Incubate the libraries at room temperature for 5 minutes off-magnet.
+15. During the incubation, set up the 80% ethanol plate for use during the bead wash steps. Using a multichannel reservoir, pour 26 mL 80% ethanol within. With a P1000 multichannel, aliquot 260 µL of ethanol across a new 96-well plate.
+16. Transfer libraries to the Integra mini-96 125 µL pipettor. Place the magnet onto the platform, followed by the plate with beads. Be sure to set up another plate for waste generated during the cleanup.
+17. Incubate the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
+18. Remove and discard the clear supernatant (~18.5 µL); take care not to remove any beads.
+19. Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
+20. Repeat the previous step for a second wash.
+21. Quickly spin down.
+22. Using the Integra mini-96 µL pipettor, remove any residual ethanol.
+23. Remove libraries from the magnet, and add 12 µL of nuclease-free water to elute.
+24. Mix by pipetting or pulse-spin. Spin down.
+25. Incubate for 5 minutes to elute DNA off beads.
+26. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 10 µL of supernatant into a new 96-well plate.
+27. Repeat steps 12-26 for a secondary bead cleanup.
 
 >[!NOTE]
->Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
+> Safe Stopping Point. Samples can be now be stored at -20°C. 
 
 ## Library QC
 
@@ -501,40 +505,40 @@ The use of the xGen Adaptase technology in this kit will result in the addition 
       <td>Single cleanup</td>
       <td>17.4</td>
       <td>20.88 (ratio: 1.2X)</td>
-      <td>20</td>
+      <td>22</td>
     </tr>
     <tr>
       <td>&ge;1 ng, 350 bp</td>
       <td>Single cleanup</td>
       <td>17.4</td>
       <td>13.92 (ratio: 0.8X)</td>
-      <td>20</td>
+      <td>22</td>
     </tr>
     <tr>
       <td rowspan="2">&lt;1 ng, 200 bp</td>
       <td>1st cleanup</td>
       <td>17.4</td>
       <td>20.88 (ratio: 1.2X)</td>
-      <td>20</td>
+      <td>22</td>
     </tr>
     <tr>
       <td>2nd cleanup</td>
       <td>20</td>
       <td>24 (ratio: 1.2X)</td>
-      <td>20</td>
+      <td>22</td>
     </tr>
     <tr>
       <td rowspan="2">&lt;1 ng, 350 bp</td>
       <td>1st cleanup</td>
       <td>17.4</td>
       <td>13.92 (ratio: 0.8X)</td>
-      <td>20</td>
+      <td>22</td>
     </tr>
     <tr>
       <td>2nd cleanup</td>
       <td>20</td>
       <td>24 (ratio: 0.8X)</td>
-      <td>20</td>
+      <td>22</td>
     </tr>
   </tbody>
 </table>
@@ -543,12 +547,12 @@ The use of the xGen Adaptase technology in this kit will result in the addition 
 
 | Input | Sample volume (µL) | Bead volume (µL) | Elution volume (µL) |
 | :--: | :--: | :---:| :--: |
-| All inputs, 200 bp | 8 | 8 (ratio: 1.0x) | 4 |
-| All inputs, 350 bp | 8 | 6.4 (ratio: 0.8x) | 4 |
+| All inputs, 200 bp | 8 | 8 (ratio: 1.0x) | 6 |
+| All inputs, 350 bp | 8 | 6.4 (ratio: 0.8x) | 6 |
 
 ### Indexing PCR
 
 | Input (bp) | Sample volume (µL) | Bead volume (µL) | Elution volume (µL) |
 | :--: | :--: | :--: | :--: |
-| 200 | 10 | 8.0 (ratio: 0.8x) | 10 |
-| 350 | 10 | 8.5 (ratio: 0.85x) | 10 |
+| 200 | 10 | 8.0 (ratio: 0.8x) | 12 |
+| 350 | 10 | 8.5 (ratio: 0.85x) | 12 |
