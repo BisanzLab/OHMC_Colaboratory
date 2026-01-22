@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=18
 #SBATCH --mem=128GB
-#SBATCH --array=1-130 # the number of input files for parallel processing. This would do 15 samples from the manifest. Note that the headerline is not counted.
+#SBATCH --array=1-130 # the number of input files for parallel processing. This would do 130 samples from the manifest starting with the first. Note that the headerline is not counted.
 #SBATCH --output humann_pipeline.log
 #SBATCH --error humann_pipeline.err
 #SBATCH --partition=sla-prio
