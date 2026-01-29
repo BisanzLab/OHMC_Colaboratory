@@ -53,5 +53,6 @@ Before sequencing, it is crucial to remove any free adapter and/or primer dimers
 - [ ] Capture beads
 - [ ] Transfer 25ul supernatant to fresh tube and quantify using Qubit, Tapestation, and qPCR.
 
-*Note: For double bead clean up, add 15ul Ampure beads and repeat. QC final library.*
+*Note: For double bead clean up, add 15ul Ampure beads to the 25ul recovered supernatant and repeat above. Follow with quantification of final library.*
+
 
