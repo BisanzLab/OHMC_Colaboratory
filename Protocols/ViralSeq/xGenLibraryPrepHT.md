@@ -134,16 +134,16 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 1. While the Adaptase program runs, ensure that Enzyme W4 is out on ice and is ready to be aliquoted before use in the *Extension Master Mix*. Be sure to pulse-spin the Extension Master Mix after the addition of Enzyme W4, and briefly spin it down. Keep on ice.
 2. Using a PCR strip tube, evenly aliquot the Extension Master Mix amongst the 8 tubes.
 3. Once the *Adaptase Program* concludes. Remove samples from the thermocycler and immediately load the *Extension Program* on the thermalcycler. 
-4. Using a P20 multichannel pipette, aliquot 9.4 µL of the Extension Master Mix across all wells or desired number of wells. Keep on ice.
+4. Using a P20 multichannel pipette, aliquot 9.4 µL of the Extension Master Mix across all wells or the desired number of wells. Keep on ice.
 5. Mix by pipetting 10 times or pulse-spin. Seal plate. Spin down.
 6. With the thermocycler preheated to 98°C. Place the samples in the thermocycler and run the *Extension Program*.
-7. While the program runs, place the contents of the *Post-Extension Cleanup Tube* into a multichannel reservoir. Be sure to have have vigorously vortexed beforehand.
+7. While the program runs, place the contents of the *Post-Extension Cleanup Tube* into a multichannel reservoir. Be sure to have vigorously vortexed beforehand.
 8. Once done with the *Extension Program*, remove plate from thermal cycler and proceed to bead cleanup with SPRISelect or AMPure XP beads.
-9. Using a P100, aliqout 20.88 µL of the SPRISelect or AMPure XP beads across all wells or desired number of wells.
+9. Using a P100, aliquot 13.92 µL of the SPRISelect or AMPure XP beads across all wells or the desired number of wells.
 10. Mix by pipetting 10 times or pulse-spin. Spin down.
 11. Incubate the libraries at room temperature for 5 minutes off-magnet.
-11. During the incubation, set up the 80% ethanol plate for use during the bead wash steps. Using a multichannel reservoir, pour 26 mL 80% ethanol within. With a P1000 multichannel, aliquot 260 µL of ethanol across a new 96-well plate.
-11. Transfer libraries to the Integra mini-96 125 µL pipettor. Place the magnet onto the platform, followed by the plate with beads. Be sure to set up another plate for waste generated during the cleanup.
+11. During the bead incubation, set up an 80% ethanol plate for use during the bead wash steps. Using a multichannel reservoir, pour 26 mL 80% ethanol into it. With a P1000 multichannel, aliquot 260 µL of ethanol across a new 96-well plate. Label plate as **EtOH Plate**. ***Be sure to have a spare plate available for waste generated during the cleanup***.
+11. Transfer libraries to the Integra mini-96 125 µL pipettor. Place the magnet onto the platform, followed by the plate with beads.
 12. Incubate the samples on a magnetic rack until a pellet is formed and the solution clears (~ 2 minutes)
 13. Remove and discard the clear supernatant (~38.3 µL); take care not to remove any beads.
 14. Keeping the plate on the magnet, add 125 µL of 80% ethanol, and incubate for 30 seconds. Remove and discard the supernatant.
@@ -155,9 +155,10 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 20. Incubate for 5 minutes to elute DNA off beads.
 21. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate. Label plate as *Post-Extension Plate*.
 22. Place in a speed vacuum and concentrate at the following specifications:
-    - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
+    - 30°C, 5 PSI, 40 - 60 minutes (Mode: V-AQ)
     - While the samples are drying down, take Enzyme B3 out of the -20°C freezer to allow the enzyme to thaw before adding to the *Ligation Master Mix*.
-23. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down.
+    - Evenly aliquot 422.4 µL of low EDTA TE Buffer across PCR strip tubes for pellet resuspension (~52.8 µL per tube).
+23. Add 4 µL of low EDTA TE Buffer to each well, vortex to redissolve pellet, and briefly spin down.
 
 >[!NOTE]
 > Safe Stopping Point. Samples can be briefly stored at 4°C or at -20°C overnight. 
@@ -190,9 +191,10 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 25. Incubate for 5 minutes to elute DNA off beads.
 26. Place on the magnet and wait for the liquid to clear completely for 1-2 minutes. Transfer 20 µL of supernatant into a new 96-well plate. Label plate as *Post-Extension Plate*.
 27. Place in a speed vacuum and concentrate at the following specifications:
-    - 37°C, 5 PSI, 10 - 20 minutes (Mode: V-AQ)
+    - 37°C, 5 PSI, 40 - 60 minutes (Mode: V-AQ)
     - While the samples are drying down, take Enzyme W4 out of the -20°C freezer to allow the enzyme to thaw before adding to the *Indexing PCR Master Mix*.
     - Remove the xGen UDI Primers from the -20°C and thaw on ice. Be sure to spin down before use.
+    - Evenly aliquot 422.4 µL of low EDTA TE Buffer across PCR strip tubes for pellet resuspension (~52.8 µL per tube).
 28. Add 4 µL of low EDTA TE Buffer, vortex to redissolve pellet, and briefly spin down.
 
 >[!NOTE]
@@ -208,9 +210,9 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 7. Using the Integra mini-96 12.5 µL pipettor, transfer 1 µL from the xGen UDI Primer Plate to the *Indexing PCR Plate*. 
 8. Mix by pipetting 10 times or pulse-spin. Spin down.
 9. Place samples in the pre-heated thermal cycler and run the *Indexing PCR Program*.
-10. While the program runs, place the contents of the *Post-Indexing PCR Cleanup Tube* into a multichannel reservoir. Be sure to have have vigorously vortexed beforehand.
-11. Once done with the *Indexing PCR Program*, remove plate from thermal cycler and proceed to bead cleanup with SPRISelect or AMPure XP beads.
-12. Using a P20, aliqout 8.5 µL of the SPRISelect or AMPure XP beads across all wells or desired number of wells.
+10. While the program runs, place the contents of the *Post-Indexing PCR Cleanup Tube* into a multichannel reservoir. Be sure to have vigorously vortexed beforehand.
+11. Once done with the *Indexing PCR Program*, remove the plate from the thermal cycler and proceed to bead cleanup with SPRISelect or AMPure XP beads.
+12. Using a P20, aliquot 8.5 µL of the SPRISelect or AMPure XP beads across all wells or the desired number of wells.
 13. Mix by pipetting 10 times or pulse-spin. Spin down.
 14. Incubate the libraries at room temperature for 5 minutes off-magnet.
 15. During the incubation, set up the 80% ethanol plate for use during the bead wash steps. Using a multichannel reservoir, pour 26 mL 80% ethanol within. With a P1000 multichannel, aliquot 260 µL of ethanol across a new 96-well plate.
@@ -228,7 +230,7 @@ The starting point for this protocol is post-fragmentation and assumes that you 
 27. Repeat steps 12-26 for a secondary bead cleanup.
 
 >[!NOTE]
-> Safe Stopping Point. Samples can be now be stored at -20°C. 
+> Safe Stopping Point. Samples can now be stored at -20°C. 
 
 ## Library QC
 
@@ -537,7 +539,7 @@ The use of the xGen Adaptase technology in this kit will result in the addition 
     <tr>
       <td>2nd cleanup</td>
       <td>20</td>
-      <td>24 (ratio: 0.8X)</td>
+      <td>16 (ratio: 0.8X)</td>
       <td>22</td>
     </tr>
   </tbody>
