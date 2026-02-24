@@ -18,7 +18,7 @@ Note: the mini-96 and multichannels pipette every other well.  See [this templat
 - [ ] 384 Plates for qPCR (Biorad #HSP3865 OR Armadillo PCR plate Fisher AB3384)
 - [ ] gDNA from in a standard 96 well plate or Qiagen Capture plate
 - [ ] Integra Mini-96 12.6 ul pipette
-- [ ] 1 box Integra 12.5 ul sterile nuclease grip tips (GRIPTIPS 6000)
+- [ ] 1 box Integra 12.5 ul sterile nuclease grip tips (GRIPTIPS 6405)
 - [ ] Any multichannel 10 ul pipette with sterile nuclease free tips
 - [ ] QIAquant 384 or Biorad CFX384
 - [ ] Sterile nuclease free reagent reservoir (VistaLab 2138127G)
@@ -99,4 +99,5 @@ Extend | 72˚C | 30 sec
 Holding	| 4˚C	Hold | 0 sec
 
 \**25 cycles is a good starting point here. With V4 primers, primer dimers will occur after cycle 25 and will make judging the success of amplification difficult without running gel or secondary QC.*
+
 
