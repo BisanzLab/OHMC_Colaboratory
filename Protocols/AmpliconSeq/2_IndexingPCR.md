@@ -14,7 +14,7 @@ This step essentially involves diluting samples 100x in water before a single li
 - [ ] Indexing Primer plate at 5µM (Pick 1 of 6 for each plate to be sequenced without overlapping)
 - [ ] Nuclease-free H2O (Life Tech 0977-023)
 - [ ] Integra Mini-96 12.6 ul pipette
-- [ ] 0.5 boxes Integra 12.5 ul sterile nuclease grip tips per 96 well plate to be sequenced (GRIPTIPS 6000)
+- [ ] 0.5 boxes Integra 12.5 ul sterile nuclease grip tips per 96 well plate to be sequenced (GRIPTIPS 6405)
 - [ ] Any multichannel 20 ul pipette with sterile nuclease free tips
 - [ ] Any multichannel 100 ul pipette with sterile nuclease free tips
 - [ ] Sterile nuclease free reagent reservoir (VistaLab 2138127G)
@@ -63,4 +63,5 @@ Holding	| 4˚C	Hold | (0 sec)
 <img src="https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Misc/images/Fig1.jpg" width="400" height="400">
 
 **Figure 1.** **(A)** Illumina sequencing construct design which allows for an index set to be used for multiple sequencing approaches. **(B)** Distribution of edit distance among newly designed index set (# of sequencing errors required to misidentify barcode). **(C)** Nucleotide composition is balanced at each position of index to maintain base calling accuracy.
+
 
