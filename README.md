@@ -4,7 +4,7 @@
 
 ## Project and reagent requests
 
-Please visit this [link](https://forms.gle/QxAVkzP4HyF7zvfQA) to request a project/reagents. Reagents will be allocated on first come/first serve basis and alignment with one health theme.
+Please visit this [link](https://forms.gle/QxAVkzP4HyF7zvfQA) to request a project/reagents. Reagents will be allocated on first come/first serve basis and alignment with one health theme. All trainees and Co-lab users are expected to follow procedures outlined in the [Co-Lab Mission and Guidelines document](documentation/OHMC Co-lab Mission Statement and Guidelines_v1.pdf).
 
 ## Sample shipping
 
