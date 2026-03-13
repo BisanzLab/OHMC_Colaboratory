@@ -50,9 +50,8 @@ Before sequencing, it is crucial to remove any free adapter and/or primer dimers
 - [ ] briefly centrigue, recapture, and use pipette to remove any ethanol at bottom of tube
 - [ ] Airdry beads for ~ 5 min at room temperature until no visible ethanol remains
 - [ ] Add 30 ul nuclease free water and pipet mix 20X
+- [ ] Incubate for 2 min at room temperature
 - [ ] Capture beads
-- [ ] Transfer 25ul supernatant to fresh tube and quantify using Qubit, Tapestation, and qPCR.
-
+- [ ] Transfer 25ul supernatant to fresh tube
 *Note: For double bead clean up, add 15ul Ampure beads to the 25ul recovered supernatant and repeat above. Follow with quantification of final library.*
-
-
+- [ ] Quantify using Qubit, Tapestation, and qPCR.
