@@ -21,7 +21,7 @@
 |Tapestation Loading Tips | 1120 | Agilent | 5067-5599 | 451.05 |
 |Tapestation caps for optical tubes | 960 | Agilent | 401425 | 40.80 |
 |Tapestation optical tubes |960 | Agilent | 401428 | 84.00 |
-|NextSeq P1 600 kit XLEAP | 1 | Illumina | 20100981 | 1618.00 |
+|NextSeq P1 600 kit XLEAP | 1 | Illumina | 20100981 | 1694.80 |
 |PhiX174 | 1 | Illumina | FC-110-3001 | 207.00 |
 |GRI Service Contract | 1 | iLab | - | 707.80 |
 |-|-|-|-|-|
