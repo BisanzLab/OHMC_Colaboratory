@@ -537,7 +537,7 @@ poscons<-read_qza("Output/ASV_table.qza")$data
 if(sum(grepl("ZymoDNA|ZymoCom", colnames(poscons)))==0){
   print("Skipping positive control QC")
 } else{
-  poscons[,grepl("ZymoDNA|ZymoCom", colnames(poscons))] %>% 
+  poscons[,grepl("ZymoDNA|ZymoCom", colnames(poscons)), drop=FALSE] %>% 
     filter_features(1,1) %>%
     as.data.frame() %>%
     rownames_to_column("ASV") %>%
@@ -552,7 +552,7 @@ if(sum(grepl("ZymoDNA|ZymoCom", colnames(poscons)))==0){
   print("Skipping positive control QC")
 } else{
   summarize_taxa(  
-    poscons[,grepl("ZymoDNA|ZymoCom", colnames(poscons))] %>%
+    poscons[,grepl("ZymoDNA|ZymoCom", colnames(poscons)), drop=FALSE] %>%
       filter_features(1,1),
       read_tsv("Output/ASV_d2taxonomy.txt") %>% 
   column_to_rownames("ASV"))$Species %>%
@@ -569,7 +569,7 @@ negcons<-read_qza("Output/ASV_table.qza")$data
 if(sum(grepl("ExtCon|NTC", colnames(negcons)))==0){
   print("Skipping negative control QC")
 } else{
-  negcons[,grepl("ExtCon|NTC", colnames(negcons))] %>% 
+  negcons[,grepl("ExtCon|NTC", colnames(negcons)), drop=FALSE] %>% 
     filter_features(1,1) %>%
     as.data.frame() %>%
     rownames_to_column("ASV") %>%
@@ -583,7 +583,7 @@ negcons<-read_qza("Output/ASV_table.qza")$data
 if(sum(grepl("ExtCon|NTC", colnames(negcons)))==0){
   print("Skipping negative control QC")
 } else{
-  negcons[,grepl("ExtCon|NTC", colnames(negcons))] %>% 
+  negcons[,grepl("ExtCon|NTC", colnames(negcons)), drop=FALSE] %>% 
     filter_features(1,1) %>%
     as.data.frame() %>%
     rownames_to_column("ASV") %>%
@@ -591,7 +591,7 @@ if(sum(grepl("ExtCon|NTC", colnames(negcons)))==0){
     interactive_table()
 
   summarize_taxa(  
-    negcons[,grepl("ExtCon|NTC", colnames(negcons))] %>%
+    negcons[,grepl("ExtCon|NTC", colnames(negcons)), drop=FALSE] %>%
       filter_features(1,1),
       read_tsv("Output/ASV_d2taxonomy.txt") %>% 
   column_to_rownames("ASV"))$Species %>%
