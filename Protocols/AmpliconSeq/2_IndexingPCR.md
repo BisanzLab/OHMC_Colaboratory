@@ -7,7 +7,8 @@ While the primary PCR has created the amplicons for sequencing, there is no iden
 This step essentially involves diluting samples 100x in water before a single limited-cycle PCR which will tack on the remainder of the sequencing adapter. The construct is described in Figure 1. One special note: the nucleotide composition must be relatively balanced at each position of the index. If preparing a sequencing run of less than 96 samples, this should be carefully analysed.
 
 # Materials
-- [ ] Primary PCR amplicons in 384 Plate for qPCR (derived from protocol 1). You will need 1 plate for each original plate of gDNA.
+- [ ] Primary PCR amplicons in 384 Plate for qPCR (derived from protocol 1).
+- [ ] 96 well plates for dilution of templates. You will need 1 plate for each original plate of gDNA. (Ex. VWR 82006-704)
 - [ ] 384 Plates for qPCR (Biorad #HSP3865 OR Armadillo PCR plate Fisher AB3384)
 - [ ] DMSO for PCR (Sigma D8418-50mL)
 - [ ] KAPA HiFi PCR kit (KAPA KK2502)
