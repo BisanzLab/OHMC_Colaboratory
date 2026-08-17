@@ -2,12 +2,20 @@
 
 ## Theory
 
-Describe here
+To effectively characterize a microbial community requires even lysis of all of its members. Some organisms like *E. coli* break open if you look at them the wrong way. Others like *E. lenta* require considerably more effort. Gram-positive organisms in stationary phase growth can be >90% peptidoglycan (cell wall) by weight. To ensure even lysis, mechanical lysis is preferred using shaking with beads at a high occurrence.
+
+This protocol uses the current iteration of the PowerSoil reagents (previously MoBio). This will ensure even lysis of communities, and isolation of high purity DNA with little residual PCR inhibitors which will cause problems in down stream enzymatic reactions (like those needed for sequencing or qPCR).
+
+
+All extractions  MUST include at least one blank tube labeled Extraction Control (ExtCon). It is ideal to include a positive control such as the Zymo Community.
+
+A template has been provided to track sample layouts in 96 well plates. Download [here](https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Templates/0_ExtractionPlate_Template.xlsx). Please utilize it to ensure smooth integration into later workflows. Print a copy and keep in your lab book as well as a copy in the Sequencing Run log book. If samples will be submitted to the collaboratory, they must be arrayed in 96-well full skirted plates and follow these [naming conventions](https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Protocols/0_SampleRequirements.md).
 
 ## Materials
 
 - [ ] PowerSoil Pro kit, Qiagen #47014
-- [ ] 
+- [ ] Tissuelyzer III or similar (MPBio FastPrep 96)
+- [ ] Single/multichannel pipettes capable of 200-1000ul volumes and appropriate tips
 
 ## Preparation
 - [ ] Wipe pipettes and work areas with DNaseAway or similar, treat area with UV light for ~15 minutes.
