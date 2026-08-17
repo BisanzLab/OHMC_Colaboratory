@@ -1,4 +1,4 @@
-# PowerSoil Manual
+# Manual (Tube) extraction of DNA using PowerSoil
 
 ## Theory
 
