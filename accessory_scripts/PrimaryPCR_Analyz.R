@@ -104,7 +104,7 @@ amps %>% left_join(tracking %>% dplyr::select(Well384, Sample_Plate, Sample_Well
   mutate(Row96=gsub("[0-9]","", Sample_Well)) %>%
   filter(!is.na(Sample_ID)) %>%
   mutate(SampleType=case_when(
-    grepl("ZymoCom_|ZymoDNA", Sample_ID) ~ "Positive Control",
+    grepl("ZymoCom_|ZymoDNA|myco", Sample_ID) ~ "Positive Control",
     grepl("NTC_|ExtCon_", Sample_ID) ~ "Negative Control",
     TRUE ~ "Unknown"
   ))
@@ -121,7 +121,7 @@ for(i in unique(amps$Sample_Plate)){
     geom_line() +
     facet_grid(Row96~Col96) +
     theme_plt() +
-    geom_text(aes(label=Sample_ID, x=1, y=5000), color="black", size=2, hjust=0) +
+    geom_text(aes(label=paste0("\n", gsub("(.{12})(?=.)", "\\1\n", Sample_ID, perl=TRUE)), x=1, y=Inf), color="black", size=2, hjust=0, vjust=1.2, lineheight=0.8) +
     scale_color_manual(values=c("indianred","green", "grey50")) +
     ggtitle(paste("Primary PCR Curves 96:", i))
     
