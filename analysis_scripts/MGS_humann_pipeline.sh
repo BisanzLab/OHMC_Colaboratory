@@ -26,7 +26,7 @@
 # Change log:
 # - 30 Apr 2025 - initial setup and debugging
 # - 28 July 2025 - changed handling of postqc reads, added explicit polyG removal assuming all data will be novaseq/nextseq, although this would have been occurring by default
-#
+# - 3 Nov 2026 - had to update the default humann database (mpa_vJun23_CHOCOPhlAnSGB_202403) to (mpa_vJan26_CHOCOPhlAnSGB_202605)  
 #
 #
 #
